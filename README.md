@@ -9,9 +9,6 @@ A bike-sharing system is a service for shared bike use to individuals on a short
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-
-- What is the background of your project?
 This project aims to analyze bike sharing dataset to understand the factors that contribute to demand of bike. The goal is to identify key variables can help the company to accelerate its revenue.
 
 ### The company wants to know:
@@ -19,7 +16,27 @@ This project aims to analyze bike sharing dataset to understand the factors that
 - How well those variables describe the bike demands
 - 
 - What is the dataset that is being used?
-The dataset used in this analysis contains information about thousands of loans, including borrower demographics, loan characteristics, and repayment status. The dataset used in this study includes past loan applicants with various attributes such as:
+The dataset day.csv  have the following fields:
+	- instant: record index
+	- dteday : date
+	- season : season (1:spring, 2:summer, 3:fall, 4:winter)
+	- yr : year (0: 2018, 1:2019)
+	- mnth : month ( 1 to 12)
+	- holiday : weather day is a holiday or not (extracted from http://dchr.dc.gov/page/holiday-schedule)
+	- weekday : day of the week
+	- workingday : if day is neither weekend nor holiday is 1, otherwise is 0.
+	+ weathersit : 
+		- 1: Clear, Few clouds, Partly cloudy, Partly cloudy
+		- 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+		- 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+		- 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+	- temp : temperature in Celsius
+	- atemp: feeling temperature in Celsius
+	- hum: humidity
+	- windspeed: wind speed
+	- casual: count of casual users
+	- registered: count of registered users
+	- cnt: count of total rental bikes including both casual and registered
 
 ## Technologies Used
 - numpy - version 1.20.3
@@ -47,7 +64,7 @@ Significant variables to predict the demand for shared bikes
 ## Acknowledgements
 
 ## Contact
-Created by [@abhilashkdeveloper,@komal2] - feel free to contact me!
+Created by [@KomalAnalyst777] - feel free to contact me!
 
 
 <!-- Optional -->
