@@ -2,6 +2,7 @@
 A bike-sharing system is a service for shared bike use to individuals on a short term basis for a price. The company need a mindful business plan to accelerate its revenue. The objective of the case study is to identify : Which variables are significant in predicting the demand for shared bikes. How well those variables describe the bike demands. 
 ## Table of Contents
 * [General Info](#general-information)
+* [Dataset](#Dataset)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
@@ -14,8 +15,8 @@ This project aims to analyze bike sharing dataset to understand the factors that
 ### The company wants to know:
 - Which variables are significant in predicting the demand for shared bikes.
 - How well those variables describe the bike demands
-- 
-- What is the dataset that is being used?
+  
+### Dataset
 The dataset day.csv  have the following fields:
 	- instant: record index
 	- dteday : date
