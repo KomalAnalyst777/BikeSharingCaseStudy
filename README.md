@@ -17,7 +17,8 @@ This project aims to analyze bike sharing dataset to understand the factors that
 - How well those variables describe the bike demands
   
 ### Dataset
-The dataset day.csv  have the following fields:
+
+- The dataset day.csv  have the following fields:
 	- instant: record index
 	- dteday : date
 	- season : season (1:spring, 2:summer, 3:fall, 4:winter)
